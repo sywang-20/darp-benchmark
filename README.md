@@ -53,9 +53,9 @@ $$
 1. **Vehicle Route**:
 
  
-   $$
-   \sum_{j \in P \cup D} x_{ijk} = 1 \quad \forall i \in P, k \in V
-   $$
+$$
+\sum_{j \in P \cup D} x_{ijk} = 1 \quad \forall i \in P, k \in V
+$$
    
    $$
    \sum_{i \in P \cup D} x_{ijk} = 1 \quad \forall j \in D, k \in V
