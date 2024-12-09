@@ -77,7 +77,9 @@ $$
    
 $$
 s_i + d_i + t_{ij} \leq s_j \quad \forall i, j \in P \cup D, i \neq j, k \in V
+$$
 
+$$
 B_{ki} + T \geq B_{kj} \quad \forall i, j \in P \cup D, k \in V
 $$
 
