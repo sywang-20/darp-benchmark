@@ -51,6 +51,7 @@ $$
 ### Constraints
 
 1. **Vehicle Route**:
+
  
    $$
    \sum_{j \in P \cup D} x_{ijk} = 1 \quad \forall i \in P, k \in V
