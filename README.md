@@ -56,45 +56,45 @@ $$
 $$
 \sum_{j \in P \cup D} x_{ijk} = 1 \quad \forall i \in P, k \in V
 $$
-   
-   $$
-   \sum_{i \in P \cup D} x_{ijk} = 1 \quad \forall j \in D, k \in V
-   $$
+
+$$
+\sum_{i \in P \cup D} x_{ijk} = 1 \quad \forall j \in D, k \in V
+$$
 
 2. **Vehicle Capacity**:
    
-   $$
-   \sum_{i \in P} q_i x_{ijk} \leq Q \quad \forall k \in V
-   $$
+$$
+\sum_{i \in P} q_i x_{ijk} \leq Q \quad \forall k \in V
+$$
 
 3. **Time Windows**:
    
-   $$
-   e_i \leq s_i \leq l_i \quad \forall i \in P \cup D
-   $$
+$$
+e_i \leq s_i \leq l_i \quad \forall i \in P \cup D
+$$
 
 4. **Service Time and Maximum Route Duration**:
    
-   $$
-   s_i + d_i + t_{ij} \leq s_j \quad \forall i, j \in P \cup D, i \neq j, k \in V
-   B_{ki} + T \geq B_{kj} \quad \forall i, j \in P \cup D, k \in V
-   $$
+$$
+s_i + d_i + t_{ij} \leq s_j \quad \forall i, j \in P \cup D, i \neq j, k \in V
+B_{ki} + T \geq B_{kj} \quad \forall i, j \in P \cup D, k \in V
+$$
 
 5. **Pickup and Delivery for the Same Vehicle**:
    
-   $$
-   \sum_{j \in P \cup D} x_{ijk} = \sum_{j \in P \cup D} x_{jik} \quad \forall i \in P, k \in V
-   $$
+$$
+\sum_{j \in P \cup D} x_{ijk} = \sum_{j \in P \cup D} x_{jik} \quad \forall i \in P, k \in V
+$$
 
 6. **Arrival and Ride Time Constraints**:
     
-   $$
-   B_{ki} + t_{ij} \leq B_{kj} \quad \forall i, j \in P \cup D, k \in V
-   $$
+$$
+B_{ki} + t_{ij} \leq B_{kj} \quad \forall i, j \in P \cup D, k \in V
+$$
    
-   $$
-   L_i \leq L \quad \forall i \in P \cup D
-   $$
+$$
+L_i \leq L \quad \forall i \in P \cup D
+$$
 
 ## DARP Instances
 
