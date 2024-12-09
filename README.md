@@ -43,9 +43,9 @@ The script will loop over the instance table `data/benchmark_instances.csv` and 
 ### Objective Function
 
 The objective is to minimize the total travel cost or time:
-$$
+$
 \text{Minimize} \sum_{k \in V} \sum_{i \in P \cup D} \sum_{j \in P \cup D} c_{ij} x_{ijk}
-$$
+$
 
 ### Constraints
 
